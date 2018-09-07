@@ -11,7 +11,7 @@
     "generate": "NODE_ENV=production nuxt generate",
     "lint:scripts": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint:styles": "stylelint '+(assets|components|layouts|pages)/**/*.+(scss|vue)'",
-    "lint": "yarn run lint:scripts && yarn run lint:styles",
+    "lint": "yarn run lint:scripts && yarn run lint:styles"
   },
   "dependencies": {
     "bootstrap": "^4.1.3",
